@@ -1,4 +1,4 @@
-import { auth } from "../../firebase/firebaseClient"; // Adjust the path as necessary
+import { auth } from "../firebase/firebaseClient";
 
 export default async function isUserPremium(): Promise<boolean> {
   const user = auth.currentUser;
